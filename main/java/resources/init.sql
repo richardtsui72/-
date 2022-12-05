@@ -1,0 +1,8 @@
+CREATE TABLE CURRENCY_MAPPING (
+    eng_name CHAR(3) NOT NULL PRIMARY KEY,
+    ch_name CHAR(2) NOT NULL
+);
+
+INSERT INTO CURRENCY_MAPPING (eng_name, ch_name) VALUES ('USD', '美金');
+INSERT INTO CURRENCY_MAPPING (eng_name, ch_name) VALUES ('GBP', '英鎊');
+INSERT INTO CURRENCY_MAPPING (eng_name, ch_name) VALUES ('EUR', '歐元');
